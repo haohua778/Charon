@@ -1,0 +1,28 @@
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+
+# Virtual environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build output and editor files
+build/
+dist/
+*.egg-info/
+.idea/
+.vscode/
+.DS_Store
+*.log
+
+# Local reports/review records and evaluation outputs
+records/
+outputs/
